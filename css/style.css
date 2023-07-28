@@ -1,0 +1,444 @@
+
+/*COMMON CSS START*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}   /* It has been used to remove  'Left to Right' scroll */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1320px;
+    /* background: teal;  */
+     /* height: 100px; */
+    margin: 0 auto; 
+}
+/*COMMON CSS END*/
+
+/*NAVBAR CSS START*/
+
+#navbar{
+    /* background: red; */
+    /* height: 100px; */
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    /* background: #f8e803; */
+    /* height: 100px; */
+}
+.menu-item{
+    width: 80%;
+    /* background: #be0aa6; */
+    /* height: 100px; */
+}
+.nav-wrapper{
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.menu-item ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 60px;
+    text-transform: capitalize;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    
+}
+
+.menu-item ul li a:hover{
+    color: black;
+}
+
+.menu-item ul li a:last-child{
+    margin-right: 0px;
+}
+
+/* .menu-item ul li:nth-child(3) a{
+    color: red;
+    background-color: black;
+}  */
+/*  
+.menu-item ul li:nth-child(4) a{
+    /* color: red; */
+  /*  background-color: black;
+} */
+
+/*NAVBAR CSS END*/
+
+
+/*BANNER CSS START*/
+#banner{
+    background:url(../images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 462px;
+    padding-bottom: 462px;
+}
+.banner-text p{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+    font-weight: 700; /* bold */
+    color: #FFC178;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding-bottom: 37px;
+}
+
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 96px;
+    font-weight: 700; /* bold */
+    color: white;
+}
+
+.banner-text h1 span{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 88px;
+    font-weight: 400; /* bold */
+    color: white;
+    display: block;
+    margin-top: -23px;
+}
+
+/*
+.banner-text h3{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 88px;
+    font-weight: 400; /* Regular */
+/*    color: white;
+} */
+
+/*BANNER CSS END*/
+
+/*COMMON CSS START*/
+/*COMMON CSS END*/
+/*COMMON CSS START*/
+/*COMMON CSS END*/
+
+
+/* ABOUT PART START */
+#about-part{
+    background: black;
+    padding-top: 286px;
+    padding-bottom: 295px;
+}
+.about-wrapper{
+    display: flex;
+}
+.about-text{
+   /* color: white; */
+   padding-top: 78px;
+   padding-left: 139px;
+}
+
+.about-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.about-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 87px;
+    text-transform: uppercase;
+    width: 496px;
+    padding: 13px 0;
+}
+
+.about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    color: #fff;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 587px;
+    padding-bottom: 66px;
+}
+
+.about-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+/* ABOUT PART END */
+
+
+/*BROMO CSS START*/
+
+#together-part{
+    background: #000;
+}
+
+.together-details{
+    background: url(../images/Bromo.jpg);
+    padding-top: 559px;
+    padding-bottom: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    }
+
+    .together-details h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    }
+
+    .together-details h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+        color: #fff;
+        line-height: 87px;
+        text-transform: uppercase;
+        width: 932px;
+        padding: 13px 0;
+        margin: 0 auto;
+        }
+
+
+.together-details p{
+         
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    color: #fff;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 893px;
+    margin: 0 auto;
+    /* padding-bottom: 66px; */
+}
+
+.together-details a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-top: 26px;
+}
+
+/*BROMO CSS END*/
+
+/* INDONESIAN CULTURE PART START */
+#Indonesia-Culture-part{
+    background: black;
+    padding-top: 286px;
+    padding-bottom: 295px;
+}
+.Indonesia-Culture-wrapper{
+    display: flex;
+}
+.Indonesia-Culture-text{
+   /* color: white; */
+   padding-top: 78px;
+   padding-left: 139px;
+}
+
+.Indonesia-Culture-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.Indonesia-Culture-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 87px;
+    text-transform: uppercase;
+    width: 496px;
+    padding: 13px 0;
+}
+
+.Indonesia-Culture-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    color: #fff;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 587px;
+    padding-bottom: 66px;
+}
+
+.Indonesia-Culture-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+/* INDONESIAN CULTURE PART END */
+
+
+/* FOOTER PART START Developed in 1 April 2023 Class 14 Assignment */
+ #footer-part{
+    padding: 100px 0;
+    color: white;
+    background: black;
+} 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 82px;
+}
+.footer-logo-right{
+    color:white;
+    display: flex;
+}
+
+.footer-logo-right p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: regular;
+    padding-right: 18px;
+}
+
+.footer-right-btn button{
+    padding: 18px 67px;
+    background: #FFA343;
+    border-radius: 10px;
+    border:none;
+    font-family:'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 98px;  /* I'm not sure about this measurement*/
+}
+
+.footer-wrapper{
+    display: flex;
+} 
+.footer-left{
+    width: 40%;
+}
+
+.footer-left h3{
+    font-family:'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    width: 405px;
+    text-transform: capitalize;
+    /* display: block;
+    width: 106px;
+    margin-top: 66px;
+    text-transform: uppercase;
+    margin: 0 auto; */
+}
+.footer-left p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    padding-top: 50px;
+    text-transform: capitalize;
+}
+
+.footer-icon i{
+    font-size: 25px;
+    margin-right: 30px;
+    padding-top: 48px;
+}
+
+.footer-second{
+    width: 20%;
+}
+.footer-second h4{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD1A0;
+    padding-bottom: 36px;
+}
+
+.footer-second ul li{
+    font-family:'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.footer-third{
+    width: 20%;
+}
+
+.footer-third-title h4{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD1A0;
+    padding-bottom: 36px;
+}
+
+.footer-third ul li{
+    font-family:'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.footer-right{
+    width: 20%;
+}
+
+.footer-right-title h4{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD1A0;
+    padding-bottom: 36px;
+}
+
+.footer-right ul li{
+    font-family:'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#footer-part .copyright p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 50px;
+    text-align: center;
+    opacity: 0.5;
+}
+/* FOOTER PART END */
